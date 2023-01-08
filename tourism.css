@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lobster&display=swap');
+
+body {
+	background-image: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(39,9,121,1) 41%, rgba(0,212,255,1) 100%, rgba(1,200,247,1) 100%);
+	font-family: 'Lato', sans-serif;
+
+  }
+  
+  .img {
+	width: 100%;
+	border-radius: 12px;
+	height: 220px;
+	object-fit: cover;
+  }
+
+  .card {
+	background-color: white;
+	border: 1px solid #bacdd8;
+	padding: 10px;
+	border-radius: 12px;
+	margin-bottom: 10PX;
+	height: 600px;
+    text-align: center;
+  }
+
+  .card:hover{
+	transform: translateY(-2%) ;
+	BOX-SHADOW :10PX 10PX 7PX 7PX RGBA(0,0,0,0.5);
+	transition:0.4s;
+	
+  }
+  
+  .name {
+	font-size: 24px;
+	font-weight: 600;
+	margin-top: 16px;
+	text-align: center;
+	text-decoration:double underline green ;
+  }
+  
+  p {
+	font-size: 20Px;
+	color: #7f8c9b;
+	line-height: 150%;
+	align-items:center;
+  }
+  
+
+  a{
+    text-decoration: none;
+    color: white;
+  }

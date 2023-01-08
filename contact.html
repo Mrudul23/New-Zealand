@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title>Contact us</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+	<link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/217/217887.png">
+
+</head>
+<body>
+	<div class="container">
+		<div class="contact-box">
+			<div class="left"></div>
+			<div class="right">
+				<h2>Contact Us</h2>
+				<input type="text" class="field" placeholder="Your Name">
+				<input type="text" class="field" placeholder="Your Email">
+				<input type="text" class="field" placeholder="Phone">
+				<textarea placeholder="Message" class="field"></textarea>
+				<img onclick="popup()"src="imaGES/send.png" style="cursor: pointer;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="index.html"><img src="imaGES/gobackcont.png"></a>
+			</div>
+		</div>
+	</div>
+
+    <script>
+        function popup() {
+            swal("Thank you", "We will get back to you soon", "success");
+        }
+        </script>
+</body>
+</html>
